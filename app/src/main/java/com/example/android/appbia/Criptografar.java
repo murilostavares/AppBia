@@ -44,165 +44,169 @@ public class Criptografar extends AppCompatActivity {
 
             switch (letra) {
                 //minusculas
-                case "a":
-                    adj = "g";
-                    break;
-                case "b":
-                    adj = "h";
-                    break;
-                case "c":
-                    adj = "i";
-                    break;
-                case "d":
-                    adj = "j";
-                    break;
-                case "e":
-                    adj = "k";
-                    break;
-                case "f":
-                    adj = "l";
-                    break;
                 case "g":
-                    adj = "m";
-                    break;
-                case "h":
-                    adj = "n";
-                    break;
-                case "i":
-                    adj = "o";
-                    break;
-                case "j":
-                    adj = "p";
-                    break;
-                case "k":
-                    adj = "q";
-                    break;
-                case "l":
-                    adj = "r";
-                    break;
-                case "m":
-                    adj = "s";
-                    break;
-                case "n":
-                    adj = "t";
-                    break;
-                case "o":
-                    adj = "u";
-                    break;
-                case "p":
-                    adj = "v";
-                    break;
-                case "q":
-                    adj = "w";
-                    break;
-                case "r":
-                    adj = "x";
-                    break;
-                case "s":
-                    adj = "y";
-                    break;
-                case "t":
-                    adj = "z";
-                    break;
-                case "u":
                     adj = "a";
                     break;
-                case "v":
+                case "h":
                     adj = "b";
                     break;
-                case "w":
+                case "i":
                     adj = "c";
                     break;
-                case "x":
+                case "j":
                     adj = "d";
                     break;
-                case "y":
+                case "k":
                     adj = "e";
                     break;
-                case "z":
+                case "l":
                     adj = "f";
                     break;
+                case "m":
+                    adj = "g";
+                    break;
+                case "n":
+                    adj = "h";
+                    break;
+                case "o":
+                    adj = "i";
+                    break;
+                case "p":
+                    adj = "j";
+                    break;
+                case "q":
+                    adj = "k";
+                    break;
+                case "r":
+                    adj = "l";
+                    break;
+                case "s":
+                    adj = "m";
+                    break;
+                case "t":
+                    adj = "n";
+                    break;
+                case "u":
+                    adj = "o";
+                    break;
+                case "v":
+                    adj = "p";
+                    break;
+                case "w":
+                    adj = "q";
+                    break;
+                case "x":
+                    adj = "r";
+                    break;
+                case "y":
+                    adj = "s";
+                    break;
+                case "z":
+                    adj = "t";
+                    break;
+                case "a":
+                    adj = "u";
+                    break;
+                case "b":
+                    adj = "v";
+                    break;
+                case "c":
+                    adj = "w";
+                    break;
+                case "d":
+                    adj = "x";
+                    break;
+                case "e":
+                    adj = "y";
+                    break;
+                case "f":
+                    adj = "z";
+                    break;
                 //maiusculas
-                case "A":
-                    adj = "G";
-                    break;
-                case "B":
-                    adj = "H";
-                    break;
-                case "C":
-                    adj = "I";
-                    break;
-                case "D":
-                    adj = "J";
-                    break;
-                case "E":
-                    adj = "K";
-                    break;
-                case "F":
-                    adj = "L";
-                    break;
                 case "G":
-                    adj = "M";
-                    break;
-                case "H":
-                    adj = "N";
-                    break;
-                case "I":
-                    adj = "O";
-                    break;
-                case "J":
-                    adj = "P";
-                    break;
-                case "K":
-                    adj = "Q";
-                    break;
-                case "L":
-                    adj = "R";
-                    break;
-                case "M":
-                    adj = "S";
-                    break;
-                case "N":
-                    adj = "T";
-                    break;
-                case "O":
-                    adj = "U";
-                    break;
-                case "P":
-                    adj = "V";
-                    break;
-                case "Q":
-                    adj = "W";
-                    break;
-                case "R":
-                    adj = "X";
-                    break;
-                case "S":
-                    adj = "Y";
-                    break;
-                case "T":
-                    adj = "Z";
-                    break;
-                case "U":
                     adj = "A";
                     break;
-                case "V":
+                case "H":
                     adj = "B";
                     break;
-                case "W":
+                case "I":
                     adj = "C";
                     break;
-                case "X":
+                case "J":
                     adj = "D";
                     break;
-                case "Y":
+                case "K":
                     adj = "E";
                     break;
-                case "Z":
+                case "L":
                     adj = "F";
                     break;
+                case "M":
+                    adj = "G";
+                    break;
+                case "N":
+                    adj = "H";
+                    break;
+                case "O":
+                    adj = "I";
+                    break;
+                case "P":
+                    adj = "J";
+                    break;
+                case "Q":
+                    adj = "K";
+                    break;
+                case "R":
+                    adj = "L";
+                    break;
+                case "S":
+                    adj = "M";
+                    break;
+                case "T":
+                    adj = "N";
+                    break;
+                case "U":
+                    adj = "O";
+                    break;
+                case "V":
+                    adj = "P";
+                    break;
+                case "W":
+                    adj = "Q";
+                    break;
+                case "X":
+                    adj = "R";
+                    break;
+                case "Y":
+                    adj = "S";
+                    break;
+                case "Z":
+                    adj = "T";
+                    break;
+                case "A":
+                    adj = "U";
+                    break;
+                case "B":
+                    adj = "V";
+                    break;
+                case "C":
+                    adj = "W";
+                    break;
+                case "D":
+                    adj = "X";
+                    break;
+                case "E":
+                    adj = "Y";
+                    break;
+                case "F":
+                    adj = "Z";
+                    break;
+
                 case " ":
                     adj = " ";
+                    break;
+                case ".":
+                    adj = ".";
                     break;
                 default:
                     adj = ("  *** NESTE PONTO, UM CARACTER INFORMADO ESTA INCORRETO ");
