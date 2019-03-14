@@ -1,66 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.appbia.MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/criptografar"
+        style="@style/CategoryStyle"
+        android:background="@color/criptografar"
+        android:onClick="abrirCriptografar"
+        android:text="@string/criptografar" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:text="DIGITE O TEXTO ABAIXO:" />
+    <TextView
+        android:id="@+id/descriptografar"
+        style="@style/CategoryStyle"
+        android:background="@color/descriptografar"
+        android:onClick="abrirDescriptografar"
+        android:text="@string/descriptografar" />
 
-        <EditText
-            android:id="@+id/texto_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:hint="Texto Criptografado Aqui"
-            android:inputType="textMultiLine" />
-
-        <Button
-            android:id="@+id/botao_consertar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:onClick="consertar"
-            android:text="CONSERTAR" />
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:text="TEXTO CONSERTADO:" />
-
-
-        <!--<CheckBox-->
-        <!--android:id="@+id/checkbox_chantilly"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginLeft="16dp"-->
-        <!--android:paddingLeft="24dp"-->
-        <!--android:text="Tudo Maiusculo"-->
-        <!--android:textAppearance="?android:textAppearanceMedium"-->
-        <!--android:textSize="16sp" />-->
-
-        <TextView
-            android:id="@+id/texto_apresentado"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:text="Em analise..."
-            android:textColor="@android:color/black"
-            android:textSize="16dp" />
-
-
-    </LinearLayout>
-</ScrollView>
+</LinearLayout>

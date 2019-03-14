@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">App Bia</string>
+    <string name="app_name">DECIFRAR</string>
+    <string name="texto_abaixo">DIGITE O TEXTO ABAIXO:</string>
+    <string name="consertar">CONSERTAR</string>
+    <string name="texto_consertado">TEXTO CONSERTADO:</string>
+    <string name="texto_criptografado_aqui">Texto Criptografado Aqui</string>
+    <string name="em_analise">Em analise…</string>
+    <string name="texto_a_ser_criptografado">Texto a ser criptografado</string>
+    <string name="criptografar">CRIPTOGRAFAR</string>
+    <string name="texto_descriptografado">TEXTO DESCRIPTOGRAFADO:</string>
+    <string name="texto_criptografado">TEXTO CRIPTOGRAFADO:</string>
+    <string name="descriptografar">DESCRIPTOGRAFAR</string>
 </resources>
